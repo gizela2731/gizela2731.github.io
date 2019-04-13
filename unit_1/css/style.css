@@ -1,8 +1,5 @@
-
 body {
-    background-color: blue;
+	background-color: grey;
 }
-
-h1, p {
-    color: yellow;
+h1,p {color: green;
 }
