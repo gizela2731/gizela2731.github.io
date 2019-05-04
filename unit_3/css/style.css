@@ -1,0 +1,40 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size; 20px;
+	color:#222222;
+
+}
+
+header { 
+padding: 20px; 
+}
+
+h2 {
+	float: left;
+	font-size: 36px;
+}
+ nav a {
+ 	font-style: italic;
+ 	margin-right:10px;
+ }
+
+ img {
+ 	width: 100%;
+ }
+
+ main {
+ 	padding: 20px;
+ }
+
+ aside {
+ 	float: right;
+ }
+
+ #slogan {
+ 	font-style: italic;
+ }
