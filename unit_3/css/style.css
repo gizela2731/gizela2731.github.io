@@ -4,21 +4,22 @@
 }
 
 body{
+	background-color: #ddd;
 	font-family: Helvetica, Arial, sans-serif;
 	font-size; 16px;
-	color:#222222;
-
+	color:black;
 }
 
 header { 
-padding: 20px; 
+		padding: 10px; 
 }
 
 h2 {
-	font-size: 24px;
+	color: #06c;
+	font-size: 36px;
+	text-transform: uppercase;
 }
  nav a {
- 	font-style: italic;
  	margin-right:10px;
  }
 
@@ -26,6 +27,13 @@ h2 {
  	width: 100%;
  }
 
+h3{
+	color: #06c;
+}
+
+h4 {
+	color: #ea6a20;
+}
  main {
  	padding: 20px;
  }
@@ -38,8 +46,17 @@ footer {
 	padding: 20px;
 }
 
-
  aside {
  	float: right;
+ 	font-style: italic;
+ 	text-align: left;
  }
+ 	
 
+#slogan {
+	color: #ea6a20;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 24px;
+	text-align: center;
+}
