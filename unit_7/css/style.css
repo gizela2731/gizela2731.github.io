@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+#wrapper{
+	max-width: 1600px;
+		width:90%;
+	margin-top: 1.25em;
+	margin-left: auto;
+	margin-right: auto;
+	/*background-color: #EDEDED;*/
+	/*border: 1px black solid;*/
+	padding: .625em;
+}
+
+body{
+	/*background-color: pink;*/
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px; 
+	color:black;
+	line-height: 1.5;
+}
+
+header { 
+	margin: 1em;
+	/*background-color:#3DEBDD; 	*/
+}
+
+header p{
+	text-align: right;
+}
+
+header h2 {
+	color: #06c;
+	font-size: 2.25em;
+	font-family: 'Roboto', sans-serif;
+}
+
+ span{
+ 		Color:#ea6a20;
+ }
+#container{
+	border: 1px #ddd solid;
+	margin: auto;	
+	/*background-color: pink;	*/
+}
+
+
+nav{
+	/*background-color: pink;*/
+    padding: 1.25em;
+ }
+
+ nav a {
+	margin-right:1.5em;
+	/*background-color: pink;*/
+}
+
+nav input[type=text] {
+	width: 10%;
+}
+nav form{
+	padding-bottom: 1em;
+}
+
+#two_columns {
+    /*background-color: violet;*/
+    /*border: 1px black solid;*/
+     /*padding: 20px;*/
+}
+
+#left {
+    /*background-color: #E582A2;*/
+    /*border: 1px black solid;*/
+     float: left;
+     padding:.75em;
+     width:40%;
+   
+}
+
+#right {
+    /*background-color: #E55B88;*/
+    /*border: 1px black solid;*/
+     float: right;
+     padding:1.25em;
+      width:50%; 
+ }
+
+#right textarea nth-child{
+ color:red; 
+ font-weight: bold;
+}
+
+
+ .clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.spacing {
+	margin-top: .625em;
+	margin-left: 1.125em;
+
+}
+
+.spacing p{
+	margin-top: .625em;
+}
+
+h1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 2.5em;
+	line-height: 1;
+}
+
+#stab {
+	text-align: left;
+	/*background-color: pink;*/
+}
+
+input[type=submit]{
+	font-weight: bold;
+	background-color: #FFD562;
+	padding: .25em;
+	border-radius:.5em;
+}
+ 
+#submit_button{
+	background-color: #7d7;
+	padding:.5em.5em;
+	margin-top: 1.5em;
+
+}
+
+table {
+	border-collapse: collapse;
+	font-size:inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-family: inherit;
+}
+thead, tfoot {
+	background-color: #f4986d;
+	Color:#333;
+	table-layout: block;
+}
+
+th, td{
+	padding: .3125em .625em;
+
+
+}
+
+.tables {
+	margin-top: .625em;
+	margin-left: 1.125em;
+
+}
+
+.location{
+	Color:#333;
+}
+
+#requeue{
+	margin-bottom: 2em;
+}
+
+h3{
+	margin-top: 2em;
+}
+
+footer p{
+	text-align: right;
+}
+
