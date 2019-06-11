@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>Pick for Growth</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		 <!--[if lt IE 9]>
+            <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+        <![endif]-->
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<header>
+				<p>Welcome, Gizela Cardoso | <a href="#">Change Password</a> | <a href="#">Logout</a></p>
+				<p><a href="#">Need some cheer?</a></p>
+				<h2><span>simply</span>stabs</h2>
+			</header>
+			<div id="container">
+				<nav>	
+					<form >
+						Order:
+						<input type="text" name="order">
+						PO:
+						<input type="text" name="po#">
+						Item:
+						<input type="text" name="item">
+						Org:
+						<input type="text" name="organization">
+						PI:
+						<input type="text" name="pricipal">
+						Account:
+						<input type="text" name="account">
+						Deposit:
+						<input type="text" name="deposit">
+					</form>
+
+					<ul>
+						<li><a href="#"id="mobile">&#9776;</a><l1>
+						<li><a href="#">Orders</a>|</li>
+						<li><a href="#">Pick</a>|</li>
+						<li><a href="#">Pack and Ship</a>|</li>
+						<li><a href="#">Deposits</a>|</li>
+						<li><a href="#">Sequencing</a>|</li>
+						<li><a href="#">DNA Prep</a>|</li>
+						<li><a href="#">Inventory</a>|</li>
+						<br>
+						<li><a href="#">Plasmid Processing</a> |</li>
+						<li><a href="#">Public Site and Tagging</a>|</li>
+						<li><a href="#">Deposit MTA</a>|</li>
+						<li><a href="#">Admin</a>|</li>
+						<li><a href="#">Reports and Analytics</a>|</li>
+					</ul>
+				</nav>
+		
+				<main>
+						<section class="spacing">
+							<h1> Pick at Picking 01</h1>
+							<p>Pick: 48998:C321.A for 1 request</p>
+						</section>
+
+		  				<div class="clearfix">	
+		  					<section id="left">
+		  						<table id="stab">
+		  							<tbody>
+		  								<tr>
+		  									<th>
+		  										<label>Stab Tube Request IDs:</label>
+		  									</th>
+		  									<td>
+		  										<textarea rows="4" cols="20"></textarea>
+		  										<textarea disabled cols="20" rows="4" required>1231383</textarea>
+		  									</td>
+		  								</tr>
+		  								<tr>
+		  									<th>
+		  										<label>Production Tube ID:</label>
+		  									</th>
+		  									<td>
+		  										<textarea rows="2" cols="20"></textarea>
+		  										<textarea disabled cols="20" rows="2" required>8022417608</textarea>
+		  									</td>
+		  									</tr>
+		  							</tbody>
+		  						</table>
+		  						<form>
+		  							<input id="submit_button" type="submit" value="Pick" >
+		  						</form>
+		  					</section>
+							<aside id="right">
+								<ul class="flex-container">
+									<li class="flex-item">30°C</li>
+  									<li class="flex-item">Kanamycin</li>
+ 									<li class="flex-item">R1-5</li>
+ 								</ul>
+		  					</aside>
+		  				</div>
+		  				<div id="reduce">
+		  					<table class="tables">
+								<thead>
+									<tr>
+										<th>Request</th>
+										<th>Plasmid</th>
+										<th>Shipment</th>
+										<th>Location</th>
+										<th>R</th>
+										<th>C</th>
+										<th></th>
+										</tr>
+								</thead>
+								<tbody>	
+									<tr>
+										<td>
+											<a href="#">1231383</a>	
+										</td>
+										<td> 
+											<a href="#">48998: C321.A</a>
+										</td>
+										<td>
+											<a href="#">477778</a>
+										</td>
+										<td class="tube_location">R30 L1 P1</td>
+										<td>C</td>
+										<td>4</td>
+										<td> 
+											<input type="submit" value="Postpone">
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<table class="tables" id="full">
+							<thead>
+							<tr>
+									<th>Request</th>
+									<th>Plasmid</th>
+									<th>Shipment</th>
+									<th>Location</th>
+									<th>Plate</th>
+									<th>R</th>
+									<th>C</th>
+									<th>Tube</th>
+									<th>Resistance</th>
+									<th>Temp</th>
+									<th></th>
+									</tr>		
+							</thead>
+							<tbody>
+								<tr>
+									<td>
+										<a href="#">1231383</a>	
+									</td>
+									<td> 
+										<a href="#">48998: C321.A</a>
+									</td>
+									<td>
+										<a href="#">477778</a>
+									</td>
+									<td class="tube_location">R30 L1 P1</td>	
+									<td>A0000019715</td>
+									<td>C</td>
+									<td>4</td>
+									<td>
+										<a href="#">8022417608</a>
+									</td>
+									<td>Kanamycin</td>
+									<td>30</td>
+									<td> 
+										<input type="submit" value="Postpone">
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						
+						<div id="hidden">
+							<section class="spacing">
+								<h2>Next 5 requests</h2>
+								<p>Out of a total of 310 requests left to pick in this station.</p>	
+							</section>
+							<table class="tables">
+	    						<thead>
+	       							 <tr>
+	           					 		<th>Request</th>
+	            						<th>Plasmid</th>
+	            						<th>Shipment</th>
+	            						<th>Location</th>
+	            						<th>Plate</th>
+										<th>R</th>
+										<th>C</th>
+										<th>Tube</th>
+										<th>Resistance</th>
+										<th>Temp</th>
+										<th> </th>
+								 	</tr>
+								</thead>
+								<tr>
+	    							<td>
+	    								<a href="#">1234386</a>
+	    							</td>
+	    							<td>
+	    								<a href="#">32396:pscAAV-GFP</a>
+	    							</td>
+	    							<td>
+	    								<a href="#">478029</a>
+	    							</td>
+	    							<td>R30 L1 P1</td>
+	    							<td>A0000019715</td>
+	    							<td>H</td>
+	    							<td>1</td>
+	    							<td>
+	    								<a href="#">8020717966</a>
+	    							</td>
+	    							<td>Kanamycin</td>
+	    							<td>30</td>
+	    							<td>
+	    								<input type="submit" value="Postpone">
+	    							</td>
+	    						</tr>
+	    						<tr>
+	    							<td>
+	    								<a href="#">1232595</a>
+	    							</td>
+	    							<td>
+	    								<a href="#">71541:pREDCas9</a>
+	    							</td>
+	    							<td>
+	    								<a href="#">477340</a>
+	    							</td>
+	    							<td>R30 L1 P2</td>
+	    							<td>A0000019714</td>
+	    							<td>G</td>
+	    							<td>9</td>
+	    							<td>
+	    								<a href="#">8020021854</a>
+	    							</td>
+	    							<td>Spectinomycin</td>
+	    							<td>30</td>
+	    							<td >
+	    								<input type="submit" value="Postpone">
+	    							</td>
+	    						</tr>
+	    						<tr>
+	    							<td>
+	    								<a href="#">1234597</a>
+	    							</td>
+	    							<td>
+										<a href="#">21819:PERK 6:PERK9E10</a>
+	    							</td>
+	    							<td>
+										<a href="#">478099</a>	
+	    							</td>
+	    							<td>R30 L1 P3</td>
+	    							<td>A0000019713</td>
+	    							<td>G</td>
+	    							<td>4</td>
+	    							<td>
+										<a href="#">0014790011</a>
+	    							</td>
+	    							<td>Ampicillin</td>
+	    							<td>30</td>
+	    							<td>
+	    								<input type="submit" value="Postpone">
+	    							</td>
+	    						</tr>
+	    						<tr>
+	    							<td>
+										<a href="#">1234532</a>
+	    							</td>
+	    							<td>
+										<a href="#">99375:lentiGuide-Hygro-eGFP</a>
+	    							</td>
+	    							<td>
+										<a href="#">480855</a>
+	    							</td>
+	    							<td>R30 L1 P6</td>
+	    							<td>A0000020197</td>
+	    							<td>B</td>
+	    							<td>11</td>
+	    							<td>
+										<a href="#">8028422853</a>
+	    							</td>
+	    							<td>Ampicillin</td>
+	    							<td>30</td>
+	    							<td>
+	    								<input type="submit" value="Postpone">
+	    							</td>
+	    						</tr>
+	    						<tr>
+	    							<td>
+										<a href="#">1234875</a>
+	    						</td>
+	    							<td>
+									<a href="#">88895:p28-2iDMD-puro</a>
+	    							</td>
+	    							<td>
+									<a href="#">475824</a>
+								</td>
+	    							<td>R30 L2 P1</td>
+	    							<td>A00000013091</td>
+	    							<td>G</td>
+	    						<td>8</td>
+	    							<td>
+										<a href="#">8020025307</a>
+	    							</td>
+	    							<td>Low Kan</td>
+	    							<td>30</td>
+	    							<td>
+	    								<input type="submit" value="Postpone">
+	    							</td>
+	    						</tr>
+							</table>
+						</div>	
+						<Section class="spacing" id="bottom">
+								<h5>Postponed Requests</h5>
+								<p>none</p>
+								<form id="requeue">
+		  							<input type="submit" value="Requeue All Postponed Requests">
+		  						</form>
+		  				</Section>
+			 	</main>
+			 </div>
+			<footer>
+				<p>2019 SimplyStabs,Inc. All Rights Reserved</p>
+			</footer>
+		</div>
+	</body>
+</html>

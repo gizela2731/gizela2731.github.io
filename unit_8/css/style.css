@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px; 
+	color:black;
+	line-height: 1.5;
+}
+
+header p {
+	text-align: right;
+}
+ 
+header h2 {
+	color: #06c;
+	font-size: 2.25em;
+	font-family: 'Roboto', sans-serif;
+}
+
+header span{
+ 	Color:#ea6a20;
+ }
+
+nav{
+	 padding: 1.25em;
+}
+
+a:visited {
+  color: blue;
+}
+
+
+nav ul{
+	list-style-type: none;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+	margin-right:.25em;
+}
+
+nav input[type=text] {
+	width: 7%;
+}
+
+nav form{
+	padding-bottom: 1em;
+}
+
+h1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 2.5em;
+	line-height: 1;
+}
+
+h5{
+	font-size: 1.4em;
+	margin-top: .25em,
+}
+
+footer p{
+	text-align: right;
+}
+
+
+input[type=submit]{
+	font-weight: bold;
+	background-color: #FFD562;
+	padding: .25em;
+	border-radius:.5em;
+}
+
+table {
+	border-collapse: collapse;
+	font-size:inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-family: inherit;
+	width: 90%;
+}
+
+thead, tfoot {
+	background-color: #f4986d;
+	Color:#333;
+	table-layout: block;
+	text-align: left;
+}
+
+th, td{
+	padding: .3125em .625em;
+
+}
+
+#wrapper{
+	max-width: 1500px;
+		width:90%;
+	margin-top: 1.25em;
+	margin-left: auto;
+	margin-right: auto;
+	padding: .625em;
+}
+
+#container{
+	border: 1px #ddd solid;
+	margin: auto;	
+}
+
+.spacing {
+	margin-top: .625em;
+	margin-left: 1.125em;
+	
+}
+
+.spacing h2{
+margin-top: 2em;
+}
+
+.spacing p{
+	margin-top: .625em;
+
+}
+
+#left {
+     float: left;
+     padding:.75em;
+     width:50%;
+   
+}
+
+#right {
+    float: right;
+    padding:1.25em;
+    width:50%; 
+ }
+
+ .clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#stab {
+	text-align: left;
+	
+
+}
+
+#submit_button{
+	background-color: #7d7;
+	padding:.5em.5em;
+	margin-top: 1.5em;
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+	width: 100%
+  }
+
+  .flex-item{
+  padding: 0em .5em;
+  color:#ea6a20;
+  font-size: 2.5em;
+  text-align: left;
+  border: 1px black solid;
+  line-height:1.5
+  }
+
+.flex-item:nth-of-type(1){
+		font-weight: bold;
+		background: red;
+		color: white;
+		 font-size: 2.5em;
+}
+
+.tables tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+
+.tables{
+	margin-top: .625em;
+	margin-left: 1.125em;
+}
+
+table tbody tr:first-of-type .tube_location{
+	font-size: 200%;
+}
+
+#bottom{
+	width:25%;
+	border: 1px #BDBDBD solid;
+	margin-top:2em;
+	margin-bottom: .5em;
+	padding-left: .5em;
+}
+
+#requeue{
+	margin-bottom: 1em;
+}
+
+#mobile{
+	text-decoration: none;
+	display:none;
+}
+
+ul br{
+	display:none;
+}
+
+#reduce{
+	display:none;
+}
+
+#stab th{
+		vertical-align: text-top;
+}
+
+
+@media only screen and (min-width: 1800px){
+	#wrapper{
+			width: 1620px;
+	}
+	body{
+		font-size: 18px;
+	}
+	nav a {
+	margin-right: 0px;
+	}
+}  
+
+
+@media only screen and (max-width: 1540px){
+	.flex-container {
+		flex-direction: column;
+}
+	ul br{
+		display:inline;
+}
+
+	#left {
+		width:60%;
+}
+
+	#right {
+		width:40%;
+}
+
+
+@media only screen and (max-width: 1450px){
+	table tbody tr:first-of-type .tube_location{
+	font-size: 150%;
+	font-weight: bold;
+}
+	#hidden{
+		display:none;
+}
+
+@media only screen and (max-width: 1280px){
+	#full{
+	display:none;
+}
+
+	#reduce{
+		display:block;
+}
+	#bottom{
+		width:30%;
+}
+	
+
+@media only screen and (max-width: 1100px){
+	#bottom{
+	width:35%;
+}
+
+
+@media only screen and (max-width: 850px){
+	#bottom{
+	width:40%;
+}
+	.flex-item{
+		font-size: 2em;
+}
+	.flex-item:nth-of-type(1){
+		font-size: 2em;
+}
+	nav a {
+  		display: block;
+  	}
+  		
+	ul br{
+			display:none;
+}
