@@ -45,15 +45,19 @@ nav ul{
 nav li {
   display: inline;
   border-right:1px solid black;
+  padding-right:.25em;
 }
-nav li:last-child{
-	border-right:none;
-}
+
 nav li:first-child{
 	border-right:none;
 }
+
+nav li:last-child{
+	border-right:none;
+}
+
 nav a {
-	margin-right:.25em;
+	/*font-size: 1.1em;*/
 }
 
 nav input[type=text] {
@@ -94,6 +98,7 @@ table {
 	font-style: inherit;
 	font-family: inherit;
 	width: 90%;
+	table-layout: auto;
 }
 
 thead, tfoot {
@@ -125,7 +130,6 @@ th, td{
 .spacing {
 	margin-top: .625em;
 	margin-left: 1.125em;
-	margin-right:1.125em;
 	
 }
 
@@ -163,7 +167,6 @@ margin-top: 2em;
 #stab {
 	text-align: left;
 	
-
 }
 
 #submit_button{
@@ -230,24 +233,17 @@ table tbody tr:first-of-type .tube_location{
 	margin-bottom: 1em;
 }
 
-#mobile{
+.mobile{
 	text-decoration: none;
 	display:none;
 }
 
-ul br{
-	display:none;
-}
-
-#reduce{
-	width:100%;
-	overflow-x:scroll;
-	
-}
 
 #stab th{
 		vertical-align: text-top;
 }
+
+
 
 
 @media only screen and (min-width: 1800px){
@@ -261,7 +257,6 @@ ul br{
 	margin-right: 0px;
 	}
 }  
-
 
 @media only screen and (max-width: 1540px){
 	.flex-container {
@@ -288,12 +283,21 @@ ul br{
 }
 
 @media only screen and (max-width: 1280px){
-	#full{
-	display:none;
+
+	table{
+		width:100%;
 	}
-		
+	table tbody tr:first-of-type .tube_location{
+		font-size: 100%;
+		font-weight: bold;
+	}
+
+	.scroll{
+		width:100%;
+		overflow-x:scroll;	
+	}
 }
-	
+
 @media only screen and (max-width: 850px){
 
 	.flex-item{
@@ -304,10 +308,23 @@ ul br{
 		font-size: 2em;
 	}
 	nav a {
-  		display: block;
+  		display: none;
   	}
-  		
-	nav li {
-		border-right:none;
+	nav li{
+	border-right:none;
 	}
+
+  	nav:hover a{
+  		display:block;
+  	}
+ 
+ 	.mobile{
+ 		display:block;
+ 		font-size: 2em;
+ 	}
+
+	nav label{
+	display: block;
+	}
+	
 }
